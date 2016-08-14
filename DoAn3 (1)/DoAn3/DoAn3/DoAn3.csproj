@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B9340390-956C-4814-85EC-D9742FD58877}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DoAn3</RootNamespace>
+    <AssemblyName>DoAn3</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CKEditor.NET, Version=3.6.6.2, Culture=neutral, PublicKeyToken=e379cdf2f8354999, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Admin\Desktop\ckeditor 3.6.2\bin\Release\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\button-2-o.gif" />
+    <Content Include="Admin\button-o.gif" />
+    <Content Include="Admin\GioiThieuSP.aspx" />
+    <Content Include="Admin\HoaDon\QLDonHang.aspx" />
+    <Content Include="Admin\HoaDon\QLHoaDonBan.aspx" />
+    <Content Include="Admin\HoaDon\ThemDonHang.aspx" />
+    <Content Include="Admin\imange\bt_them.jpg" />
+    <Content Include="Admin\imange\file_uf.gif" />
+    <Content Include="Admin\imange\imgMenu\bg2.png" />
+    <Content Include="Admin\imange\imgMenu\hang.png" />
+    <Content Include="Admin\imange\imgMenu\hoadon.jpg" />
+    <Content Include="Admin\imange\imgMenu\loaisanpham.png" />
+    <Content Include="Admin\imange\imgMenu\matcuoi.gif" />
+    <Content Include="Admin\imange\imgMenu\menub_hover_left.gif" />
+    <Content Include="Admin\imange\imgMenu\menub_hover_right.gif" />
+    <Content Include="Admin\imange\imgMenu\sanpham.jpg" />
+    <Content Include="Admin\imange\imgMenu\taikhoan.png" />
+    <Content Include="Admin\imange\sg.jpg" />
+    <Content Include="Admin\imange\towred1-r.gif" />
+    <Content Include="Admin\MoTaSP.aspx" />
+    <Content Include="Admin\QLHoaDon.aspx" />
+    <Content Include="Admin\QLLoaiSP.aspx" />
+    <Content Include="Admin\QLNhomSP.aspx" />
+    <Content Include="Admin\QLSanPham.aspx" />
+    <Content Include="Admin\QuanTri.aspx" />
+    <Content Include="Admin\QuanTri.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\imange\imgMenu\menub_bg.gif" />
+    <Content Include="Admin\SuaSanPham.aspx" />
+    <Content Include="Admin\ThanhVien\QLThanhVien.aspx" />
+    <Content Include="Admin\ThanhVien\SuaTV.aspx" />
+    <Content Include="Admin\ThemLoaiSP.aspx" />
+    <Content Include="Admin\ThemNhomSP.aspx" />
+    <Content Include="Admin\ThemSanPham.aspx" />
+    <Content Include="CSS\Style.css" />
+    <Content Include="Global.asax" />
+    <Content Include="IMG\930.jpg" />
+    <Content Include="IMG\file_c.gif" />
+    <Content Include="IMG\file_uf.gif" />
+    <Content Include="IMG\Iphone6s.jpg" />
+    <Content Include="IMG\s6.jpg" />
+    <Content Include="Admin\ThanhVien\ThemTV.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\GioiThieuSP.aspx.cs">
+      <DependentUpon>GioiThieuSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GioiThieuSP.aspx.designer.cs">
+      <DependentUpon>GioiThieuSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\HoaDon\QLDonHang.aspx.cs">
+      <DependentUpon>QLDonHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\HoaDon\QLDonHang.aspx.designer.cs">
+      <DependentUpon>QLDonHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\HoaDon\QLHoaDonBan.aspx.cs">
+      <DependentUpon>QLHoaDonBan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\HoaDon\QLHoaDonBan.aspx.designer.cs">
+      <DependentUpon>QLHoaDonBan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\HoaDon\ThemDonHang.aspx.cs">
+      <DependentUpon>ThemDonHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\HoaDon\ThemDonHang.aspx.designer.cs">
+      <DependentUpon>ThemDonHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MoTaSP.aspx.cs">
+      <DependentUpon>MoTaSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\MoTaSP.aspx.designer.cs">
+      <DependentUpon>MoTaSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\QLHoaDon.aspx.cs">
+      <DependentUpon>QLHoaDon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\QLHoaDon.aspx.designer.cs">
+      <DependentUpon>QLHoaDon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\QLLoaiSP.aspx.cs">
+      <DependentUpon>QLLoaiSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\QLLoaiSP.aspx.designer.cs">
+      <DependentUpon>QLLoaiSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\QLNhomSP.aspx.cs">
+      <DependentUpon>QLNhomSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\QLNhomSP.aspx.designer.cs">
+      <DependentUpon>QLNhomSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\QLSanPham.aspx.cs">
+      <DependentUpon>QLSanPham.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\QLSanPham.aspx.designer.cs">
+      <DependentUpon>QLSanPham.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\QuanTri.aspx.cs">
+      <DependentUpon>QuanTri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\QuanTri.aspx.designer.cs">
+      <DependentUpon>QuanTri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SuaSanPham.aspx.cs">
+      <DependentUpon>SuaSanPham.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SuaSanPham.aspx.designer.cs">
+      <DependentUpon>SuaSanPham.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ThanhVien\QLThanhVien.aspx.cs">
+      <DependentUpon>QLThanhVien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ThanhVien\QLThanhVien.aspx.designer.cs">
+      <DependentUpon>QLThanhVien.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ThanhVien\SuaTV.aspx.cs">
+      <DependentUpon>SuaTV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ThanhVien\SuaTV.aspx.designer.cs">
+      <DependentUpon>SuaTV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ThemLoaiSP.aspx.cs">
+      <DependentUpon>ThemLoaiSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ThemLoaiSP.aspx.designer.cs">
+      <DependentUpon>ThemLoaiSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ThemNhomSP.aspx.cs">
+      <DependentUpon>ThemNhomSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ThemNhomSP.aspx.designer.cs">
+      <DependentUpon>ThemNhomSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ThemSanPham.aspx.cs">
+      <DependentUpon>ThemSanPham.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ThemSanPham.aspx.designer.cs">
+      <DependentUpon>ThemSanPham.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Admin\QuanTri.Master.cs">
+      <DependentUpon>QuanTri.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\QuanTri.Master.designer.cs">
+      <DependentUpon>QuanTri.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ThanhVien\ThemTV.aspx.cs">
+      <DependentUpon>ThemTV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ThanhVien\ThemTV.aspx.designer.cs">
+      <DependentUpon>ThemTV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\CongCu.cs" />
+    <Compile Include="Utility\Connect.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64671</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64671/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

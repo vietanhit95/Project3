@@ -1,0 +1,353 @@
+﻿body {
+    background-repeat: repeat-y;
+	margin: 0px;
+	_padding: 0px;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 13px;
+	background-image:url(D:\DoAn3\Admin\imange\imgMenu\bg2.png);
+	background-color: #FFF;
+	background-attachment: fixed;
+	background-position: center;
+}
+@charset "utf-8";
+/* CSS Document */
+
+tbody {
+font-size: 13px !important;
+}
+.Hdtext
+   {
+             background-color: #D3360F;
+             width: 178px;
+             height: 26px;
+             text-align: center;
+             padding-top: 8px;
+             color: white;
+        }
+a:link {	
+	text-decoration: none;
+	color:#000000;	
+}
+a:visited {
+	text-decoration: none;
+	color:#000000;
+}
+a:hover {
+	text-decoration:underline;
+	color:#FF0000;
+}
+
+a:active {
+	text-decoration: none;
+}
+#container {
+	background-color: #FFFFFF;
+	width: 960px;
+	margin: auto;
+	text-align:left;
+}
+
+.timkiem 
+{
+margin-right: 1px;
+float: right;
+margin-top: 1px;
+}
+
+#header {
+height: 190px;
+width: 960px;
+background-image: url(../Admin/images/bg-header.jpg);
+}
+
+#header2{	
+	height:70px;
+	width:960px;
+	background-color: #264a5f;
+    z-index: 0;
+}
+#menungang
+{
+width: 960px;
+background-color: #587185;
+height: 27px;
+}
+#menungang ul
+{
+margin-top: 0px;
+list-style-type: none;
+float: left;
+background-color: #587185;
+color: #FFF;
+height: 27px;
+}
+#menungang ul li
+{
+	padding-top:4px;
+	float:left;
+	width:150px;
+	text-align:center;
+	height:23px;
+	border-left:4px solid #587185;
+}
+#menungang ul li:hover
+{
+	border-left:4px solid #FF0000;
+	background-color:#C2C2C2;
+}
+#menungang ul li a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+#menu-ngang {
+	width:960px;
+	height:35px;	
+}
+#sologan{
+	width:960px;
+	height:152px;
+}
+#main{
+	width:960px;
+	background-color:#FFF;
+	margin-top:15px;
+	height:auto;
+}
+#content-left{
+float: left;
+width: 178px;
+border-left: 1px solid #CCC;
+border-right: 1px solid #CCC;
+border-bottom: 1px solid #CCC;
+
+}
+#content-right{
+margin-left: 184px;
+width: 775px;
+border-left: 1px solid #CCC;
+}
+#content{
+	margin-left:200px;
+	margin-right:200px;
+	_display:inline;
+}
+#footer{
+	text-align: center;
+	Margin: 0 auto;
+	width: 960px;
+	height: 50px;
+	background-repeat: repeat;
+	background-image:url(../Admin/images/ft1.png);
+	clear: both;
+	color: #333333;
+	font-family: Tahoma;
+	font-size: 12px;
+	text-align: center;
+	line-height: 25px;
+	background-position: center center;
+
+}
+.timkiem-textbox{
+font-size: 13px;
+color: #000000;
+height: 22px;
+border: 1px solid #999;
+width: 286px;
+margin-left:  30px;
+margin-top: 9px;
+border-radius : 5px;
+z-index: 11;
+padding-left: 4px;
+}
+.button{
+width: 81px;
+background-image:url(../Admin/images/button-o.gif);
+background-repeat: no-repeat;
+border: 0;
+font: Tahoma;
+color: #FFFFFF;
+height: 26px;
+margin-left: -3px;
+}
+.button2{
+	width:110px; 
+	background-image:url(../Admin/images/button-110-o.png);
+	border:0; 
+	font:Tahoma; 
+	color:#FFFFFF;
+	height:26px;
+}
+.button2:hover
+{
+    cursor:pointer;
+    }
+.button3
+{
+    	width:110px; 
+    	height:26px;
+	border-style: none;
+    border-color: inherit;
+    border-width: 0;
+background-image:url('../Admin/images/button-110-2-o.png');
+	color:#FFFFFF;
+	}
+	.button3:hover
+{
+    cursor:pointer;
+    }
+.divshow
+{   
+	float: left;
+	overflow:hidden;
+	width:175px;
+    HEIGHT: 220px;	
+	text-align:center;
+	padding:4px;
+}
+.divshow2
+{   
+	float: left;
+	overflow:hidden;
+	width:175px;
+    HEIGHT: 220px;	
+	text-align:center;
+	padding:3px;
+}
+.indam{
+	font-weight:bold;
+}
+#box
+{
+  width : 185px;
+  height : 100px;
+  overflow : auto ;
+  border : 1px solid #C5C5C5;
+  background : #F8F8F8;  
+  border-top : none;
+  position:relative;
+  z-index: 1;
+  display:none; 
+}
+#suggest table
+{
+  width: 175px;
+  font-size: 13px;
+  font-weight: normal;
+  color:#DDD; 
+  border: 0px;
+  padding: 0px;  
+  text-align:left;   
+  margin: 0px; 
+}
+.jadd{
+	background-image:url(../Admin/images/arrow-square2.gif);
+}
+.jdel{
+	background-image:url(../Admin/images/arrow-square.gif);
+}
+.tieude{
+	color:#fff; font-family:Tahoma; font-size: 14px; font-weight:bold;
+	background-color:#d4340c;height:30px;
+}
+.ketthuc{
+	text-align:center;
+	background-color:#FF9900;
+	height:35px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.a-m:link {	
+	text-decoration: none;
+	color:#F00;	
+}
+.a-m:visited {
+	text-decoration: none;
+	color:#F00;
+}
+.a-m:hover {
+	text-decoration: none;
+	color:#0F0;
+}
+
+.a-m:active {
+	text-decoration: none;
+}
+
+#loadImage{
+	width:0;
+	height:0;
+	background:url(../Admin/images/banner2.swf)
+	background:url(../Admin/images/sologan/sl.swf);
+	background:url(../Admin/images/quangcao/hvn3.swf);
+	background:url(../Admin/images/bg_menu52.png);
+	background:url(../Admin/images/bg_menu42.png);
+	background:url(../Admin/images/tab1.png);
+	background:url(../Admin/images/tab2.png);
+}
+
+#NewsTicker{
+	border:solid 1px #cccccc;
+	background:#eaf5e0;
+	width:190px;
+	height:1485px;
+	margin:0 auto;
+}
+#NewsVertical {
+width: 170px;
+height: 1475px;
+display: block;
+overflow: hidden;
+position: relative;
+}
+/* --------------- */
+/* Ticker Vertical */
+#TickerVertical {
+	width: 170px;
+	height: 170px;
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#TickerVertical li {
+	display: block;
+	width: 170px;
+	color: #333333;
+	text-align:center;
+	font-size: 11px;
+	margin: 0;
+	padding: 6px;
+	float: left;
+}
+	#TickerVertical li .NewsTitle{
+		display: block;
+		color: #000000;
+		font-size: 12px;
+		font-weight:bold;
+		margin-bottom:6px;
+	}
+	#TickerVertical li .NewsTitle a:link,
+	#TickerVertical li .NewsTitle a:Visited {
+		display: block;
+		color: #000000;
+		font-size: 12px;
+		font-weight:bold;
+		margin-bottom:6px;
+		text-decoration:none;
+	}
+	#TickerVertical li .NewsTitle a:hover {
+		text-decoration:underline;
+	}
+	
+	#TickerVertical li .NewsImg{
+		float:left;
+		margin-right:15px;
+	}
+	#TickerVertical li .NewsFooter{
+		display: block;
+		color: #000000;
+		font-size: 10px;
+		margin:6px 0 14px 0;
+	}	

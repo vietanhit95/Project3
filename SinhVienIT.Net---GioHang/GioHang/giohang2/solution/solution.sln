@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solution", "solution\solution.csproj", "{C2C27B4C-FC18-45B4-8252-A481B71ACCF4}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "show_giohang", "..\show_giohang\", "{1FC8C3C5-21A3-4664-BAF7-06A9FF4A1676}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/show_giohang"
+		Debug.AspNetCompiler.PhysicalPath = "..\show_giohang\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\show_giohang\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/show_giohang"
+		Release.AspNetCompiler.PhysicalPath = "..\show_giohang\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\show_giohang\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1041"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GridView_giohang", "..\GridView_giohang\", "{C9224272-ADD2-4D74-8302-CF012975694F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/GridView_giohang"
+		Debug.AspNetCompiler.PhysicalPath = "..\GridView_giohang\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\GridView_giohang\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/GridView_giohang"
+		Release.AspNetCompiler.PhysicalPath = "..\GridView_giohang\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\GridView_giohang\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1119"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2C27B4C-FC18-45B4-8252-A481B71ACCF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C27B4C-FC18-45B4-8252-A481B71ACCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C27B4C-FC18-45B4-8252-A481B71ACCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C27B4C-FC18-45B4-8252-A481B71ACCF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC8C3C5-21A3-4664-BAF7-06A9FF4A1676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC8C3C5-21A3-4664-BAF7-06A9FF4A1676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC8C3C5-21A3-4664-BAF7-06A9FF4A1676}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC8C3C5-21A3-4664-BAF7-06A9FF4A1676}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C9224272-ADD2-4D74-8302-CF012975694F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9224272-ADD2-4D74-8302-CF012975694F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9224272-ADD2-4D74-8302-CF012975694F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9224272-ADD2-4D74-8302-CF012975694F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

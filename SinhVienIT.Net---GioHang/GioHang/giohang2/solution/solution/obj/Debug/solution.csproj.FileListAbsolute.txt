@@ -1,0 +1,5 @@
+D:\giohang\solution\solution\bin\Debug\solution.exe
+D:\giohang\solution\solution\bin\Debug\solution.pdb
+D:\giohang\solution\solution\obj\Debug\ResolveAssemblyReference.cache
+D:\giohang\solution\solution\obj\Debug\solution.exe
+D:\giohang\solution\solution\obj\Debug\solution.pdb

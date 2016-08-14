@@ -1,0 +1,193 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="QuanTri.master.cs" Inherits="DoAn3.QuanTri" %>
+
+<!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="CSS/Style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        body {
+            background-repeat: repeat-y;
+            margin: 0px;
+            _padding: 0px;
+            text-align: center;
+            font-family: Tahoma;
+            font-size: 13px;
+            
+            background-color: #FFF;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        #container {
+            height: 164px;
+        }
+
+        .auto-style1 {
+            height: 32px;
+        }
+
+        .trangchu {
+            color: white !important;
+            font-weight: bold !important;
+        }
+
+        #ThongTin {
+            color: yellow !important;
+            font-weight: bold !important;
+        }
+
+        #MenuNgang ul li {
+            display: inline;
+        }
+
+        #MenuNgang ul {
+            float: left;
+            text-align: center;
+            height: 44px;
+            width: 922px;
+            top: 0px;
+            left: 0px;
+        }
+
+            #MenuNgang ul li a {
+                text-decoration: none;
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: 14px;
+                padding-right: 35px;
+            }
+
+        #headeradmin {
+
+            height: 73px;
+        }
+
+        .tdmenu {
+            background: url("imange/imgMenu/menub_bg.gif") repeat-x;
+            width: 959px;
+        }
+
+        .glossymenu {
+            position: relative;
+            padding: 0 0 0 34px;
+            margin: 0 auto 0 auto;
+            background: url("imange/imgMenu/menub_bg.gif") repeat-x;
+            height: 46px;
+            list-style: none;
+        }
+
+            .glossymenu li {
+                float: left;
+                padding-top: 13px;
+            }
+
+        #MenuNgang {
+            width: 960px;
+            height: 40px;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        a:active {
+            text-decoration: none;
+        }
+
+        #container {
+            background-color: #FFFFFF;
+            width: 960px;
+            margin: auto;
+            text-align: left;
+        }
+
+        #MenuNgang {
+            width: 960px;
+            height: 22px;
+        }
+
+            #MenuNgang ul {
+                top: -20px;
+                width: 926px;
+            }
+
+        .glossymenu li .glossymenu li a b {
+            float: left;
+            display: block;
+            padding: 0 24px 0 8px;
+            height: 25px;
+            margin-top: 15px;
+        }
+
+        .glossymenu li:hover a b:hover {
+            color: #555353;
+            
+            padding-top: 6px;
+            padding-bottom: 6px;
+            box-shadow: 10px 20px 30px 5px;
+            
+        }
+        #Thongtindn{
+            color:red;
+        }
+    </style>
+   
+    <script type="text/javascript" language="javascript">
+        function tt() {
+            document.createElement('li').className = "current";
+        }
+</script>
+     <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   
+    <div id="container">
+        <form id="form1" runat="server">
+            <div id="headeradmin">
+                <table style="width: 1340px; margin-left:-190px; height: 35px" cellspacing="0" cellpadding="0" >
+                    <tr>
+                        <td align="center" width="150" style="color:white;background-color:#222222;">
+                            Xin Chào:
+                            <asp:LinkButton ID="Thongtindn" runat="server" OnClick="Thongtindn_Click" BorderColor="White">LinkButton</asp:LinkButton>
+                            <asp:LinkButton ID="dangxuat" runat="server" CssClass="trangchu" OnClick="dangxuat_Click">Thoát</asp:LinkButton>
+                             <td align:"left", width="460" style="color:white; background-color: #222222;" class="auto-style1"> | <a href="/" style="color:white; font-family:Tahoma; font-size: 15px; font-weight:bold;">HomePage</a>
+
+                             </td>
+                        </td>
+                    </tr>
+                </table>
+                <marquee behavior="alternate"><font color="red"> Chào mừng bạn đến với trang quản trị !^^</font></marquee>
+            </div>
+            <div id="MenuNgang">
+                <div align="center" class="tdmenu">
+<ul class="glossymenu">
+	<li onclick="tt()" id="li"><a href="QLLoaiSP.aspx" style="text-decoration: none; color:#000;"><b>Loại Sản Phẩm</b></a></li>
+	<li><a href="QLSanPham.aspx" style="text-decoration: none; color:#000;"><b>Sản Phẩm</b></a></li>
+	<li><a href="QuanLyHSX.aspx" style="text-decoration: none; color:#000;"><b>HSX & NCC</b></a></li>
+    <li><a href="QLHoaDon.aspx" style="text-decoration: none; color:#000;"><b>Hóa Đơn</b></a></li>	
+    <li><a href="QuanLyThanhVien.aspx" style="text-decoration: none; color:#000;"><b>Thành Viên</b></a></li>
+    <li><a href="QuanLyLienHe.aspx" style="text-decoration: none; color:#000;"><b>Liên Hệ</b></a></li>
+</ul>
+</div>   
+            </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+             </asp:ContentPlaceHolder>
+            </form>
+    </div>
+</body>
+</html>

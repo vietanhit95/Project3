@@ -1,0 +1,12 @@
+D:\DoAn3\DoAn3\bin\DoAn3.dll.config
+D:\DoAn3\DoAn3\bin\DoAn3.dll
+D:\DoAn3\DoAn3\bin\DoAn3.pdb
+D:\DoAn3\DoAn3\obj\Debug\DoAn3.dll
+D:\DoAn3\DoAn3\obj\Debug\DoAn3.pdb
+D:\DoAn3\DoAn3\obj\Debug\DoAn3.csprojResolveAssemblyReference.cache
+E:\Project3\DoAn3 (1)\DoAn3\DoAn3\bin\DoAn3.dll.config
+E:\Project3\DoAn3 (1)\DoAn3\DoAn3\bin\DoAn3.dll
+E:\Project3\DoAn3 (1)\DoAn3\DoAn3\bin\DoAn3.pdb
+E:\Project3\DoAn3 (1)\DoAn3\DoAn3\obj\Debug\DoAn3.csprojResolveAssemblyReference.cache
+E:\Project3\DoAn3 (1)\DoAn3\DoAn3\obj\Debug\DoAn3.dll
+E:\Project3\DoAn3 (1)\DoAn3\DoAn3\obj\Debug\DoAn3.pdb
